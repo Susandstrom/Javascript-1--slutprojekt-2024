@@ -1,0 +1,46 @@
+
+/* id="body" Här ändrar vi bakgrunden, typsnitt och ordningen på våra div:s*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: x-large;
+    background-color: #b3e6cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 800px;
+    margin: 20px;
+}
+
+
+/* Rund-div*/
+#backgroundDiv {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+}
+ /* diven för där data för random personer hamnar*/
+#infoDiv {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*Min knapp*/
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color:#339966;
+    border: whitesmoke;
+  
+}
+
+button:hover {
+    background-color:#79d279;
+}
